@@ -1,0 +1,6 @@
+bin/
+obj/
+Temp/
+WindowsStoreApp/
+CoupDOeil.csproj
+CoupDOeil.Editor.csproj
