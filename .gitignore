@@ -2,5 +2,6 @@ bin/
 obj/
 Temp/
 WindowsStoreApp/
+Library\UnityAssemblies/
 CoupDOeil.csproj
 CoupDOeil.Editor.csproj
