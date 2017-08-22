@@ -5,6 +5,8 @@ Mixed Reality Application for Autonomous Movement Framework
 
 ### Load the Unity project
 
+- Install the Hololens Toolkit, Holotoolkit for direct building of Hololens Applications in unity.  It is a Unity Package.
+    + [https://holotoolkit.download/](https://holotoolkit.download/ "holokit")
 - Download or clone the repository.
 - Open Unity, click on Open Project and select the folder that contains the code.
 
