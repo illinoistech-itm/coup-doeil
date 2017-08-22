@@ -75,34 +75,5 @@ Hololens Emulator runs almost every application, but it has some problems with S
 ![HoloLens emulator](https://i.gyazo.com/f97297917a0e205c3c49b565298eb09b.png)
 
 
-## Backend service
 
-- Connect to the server (or localhost)
-- Download or clone the repository (Only the backend folder will be necesary)
-- Install NodeJS and NPM on the server
-- Install MySQL server (on another server or local)
-- Edit the file 'backend\CoupDOeil\app.js' with the MySQL information:
-
-~~~
-global.db = mysql.createPool({
-	  connectionLimit : 10,
-	  host            : 'localhost',
-	  user            : 'root',
-	  password        : 'coupdoeil',
-	  database        : 'coupdoeil'
-});
-~~~
-
-- Run MySQL server
-- Run the application:
-
-Linux:
-~~~
-sudo nodejs <path>/app.js
-~~~
-
-Windows: (run with admin rights)
-~~~
-nodejs <path>\app.js
-~~~
 
