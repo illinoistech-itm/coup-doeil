@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>CoupDOeil</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\rohit\Desktop\Unity Projects\Hololens\coup-doeil\CoupDOeil\Tele-Presence\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\rohit\Desktop\Unity Projects\Hololens\coup-doeil\CoupDOeil\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

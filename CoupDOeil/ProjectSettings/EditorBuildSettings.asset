@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/CoupDOeil/Scenes/MainScene.unity
     guid: f90d082edd3a3e0419a41a1e3fb67316
-  - enabled: 1
+  - enabled: 0
     path: Assets/CoupDOeil/Scenes/IITDemo.unity
     guid: eb07106a539125f429b04807a2076e3e
   - enabled: 1
     path: Assets/CoupDOeil/Scenes/IITDemoBig.unity
     guid: a5f1f09a4ba89a148a07bb1c5160b617
+  - enabled: 1
+    path: Assets/Tele-Presence/Scene/Main.unity
+    guid: f4312270fb9594e4a88d179c87126a2d
