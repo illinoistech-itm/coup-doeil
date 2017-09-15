@@ -13,14 +13,14 @@ public class NetworkModule
         Texture res = null;
         String img = "https://maps.googleapis.com/maps/api/staticmap?center=" + lat + "," + lon + "&zoom=" + zoom + "&size=600x600&maptype=satellite&key=" + googleAPIToken;
 
-        UnityWebRequest www = UnityWebRequest.GetTexture(img, false);
+        UnityWebRequest www = UnityWebRequestTexture.GetTexture(img, false);
         yield return www.Send();
         while (!www.isDone)
         {
             Debug.LogError(".");
             yield return null;
         }
-        if (www.isError)
+        if (www.isNetworkError)
         {
             Debug.Log("ERR HL: " + www.error);
         }
